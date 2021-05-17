@@ -1,0 +1,94 @@
+#main {
+    font-family: 'Lato', sans-serif;
+}
+
+.welcome-container { 
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.welcome-container h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow:
+        3px 3px 0 #2f2d2e,
+        -1px -1px 0 #2f2d2e,  
+        1px -1px 0 #2f2d2e,
+        -1px 1px 0 #2f2d2e,
+        1px 1px 0 #2f2d2e;
+    -webkit-text-stroke: 1px #2f2d2e;  
+}
+
+.welcome-container h2 {
+    color: #FFFFFF;
+    text-align: center;   
+}
+
+.welcome-img {
+    border: 1px solid #164264;
+    background-color: #164264;
+    box-shadow: 0 0 10px 5px #FFFFFF;
+    border-radius: 15px;
+    backface-visibility: hidden;
+    margin-top: 100px;
+    max-width: 50%;
+    opacity: 1;
+    padding: 10px 10px 10px 10px; 
+    transition: .5s ease;  
+}
+
+.middle {
+    opacity: 0;
+    position: absolute;
+    bottom: 1000%;
+    left: 50%;
+    transition: .5s ease;  
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.middle button {
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.middle button:hover {
+    cursor: pointer;
+}
+
+.cars-container {
+    margin: auto;
+    display: inline;
+    position: relative;
+    left: 10%;
+    width: 50%;
+}
+
+.cars-container:hover .welcome-img {
+    opacity: 0.3;
+}
+  
+.cars-container:hover .middle {
+    opacity: 1;
+}
+
+.suvs-container {
+    margin: auto;
+    display: inline;
+    position: relative;
+    left: 20%;
+    width: 50%;
+}
+
+.suvs-container:hover .welcome-img {
+    opacity: 0.3;
+}
+
+.suvs-container:hover .middle {
+    opacity: 1;
+}
