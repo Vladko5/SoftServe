@@ -1,0 +1,59 @@
+.auto-page-container {
+    margin: 20px;
+}
+ 
+.auto-page-ul {
+    background-color: #0b3758;
+    box-shadow: 0 0 10px 5px #FFFFFF;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+.auto-page-ul h2 {
+    color: #FFFFFF;
+    text-align: center;  
+}
+ 
+.auto-page-ul h3 {
+    color: rgb(36, 21, 3);
+    border-top: 1px solid #2E79B2;
+    border-left: 1px solid #2E79B2;
+    border-right: 5px solid #2E79B2;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+ 
+.auto-page-ul img {
+    border-top: 1px solid #2E79B2;
+    border-left: 1px solid #2E79B2;
+    border-right: 5px solid #2E79B2;
+    border-bottom: 5px solid #2E79B2;
+    border-radius: 25px;
+    max-width: 340px;
+}
+ 
+.auto-page-ul p {
+    border-bottom: 5px solid #2E79B2;
+    border-left: 1px solid #2E79B2;
+    border-right: 5px solid #2E79B2;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    font-size: medium;
+}
+ 
+.auto-page-ul li {
+    margin-top: 50px;
+    display: inline-block;
+    padding: auto;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.auto-page-img:hover {
+    cursor: pointer;
+}
+
+.details:hover {
+    cursor: pointer;
+}

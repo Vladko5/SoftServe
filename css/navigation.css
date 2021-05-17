@@ -1,0 +1,85 @@
+nav {
+  background-color: #164264;
+  overflow: hidden;
+}
+
+nav img {
+  position: relative;
+  top: 0;
+  left: 40%;
+  text-align: center;
+  margin: auto;
+  width: 60px;
+  height: 40px;
+}
+
+nav a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+nav .button {
+  background-color: #2E79B2;
+  color: #FFFFFF;
+  float: left;
+  font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.sidepanel {
+  height: 250px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #164264;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidepanel h4{
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  background-color: #2E79B2;
+  color: #FFFFFF;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #2E79B2;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+  
+.openbtn:hover {
+  background-color: #164264;
+  color: #FFFFFF;
+}
