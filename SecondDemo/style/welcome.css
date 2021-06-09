@@ -1,0 +1,130 @@
+.section1 h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: aliceblue;
+    border-bottom-color: aliceblue;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+.section1 {
+    height: 700px;
+    background: url('../images/rhodope.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.section2 {
+    background: url('../images/bulgarian-flag2.jpg') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.pContainer {
+    font-size: 23px;
+    display: block;
+    top: 30%;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    transform: translate(48%, -20%);
+    background-image: radial-gradient(circle, #FFFFFF 75%, #e5e2e2, #a5a4a4);
+    border: 10px solid transparent;
+    border-image: url('../images/border-img.png') 10 repeat;
+}
+
+.section2 p {
+    color: #9b2525;
+    float: left;
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-top: 5%;
+    text-align: left;
+}
+
+.section2 img {
+    width: 300px;
+    height: 200px;
+    transform: translate(70%, -85%);
+}
+
+.row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.row .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row .box .middleBx {
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    right: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
+.box:hover .middleBx{
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.middle {
+    position: relative;
+    padding: 20px 60px;
+    opacity: 0;
+}
+
+.box:hover .middle {
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.row .box {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background: #000;
+}
+
+.row .box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.middle h2 {
+    color: rgb(82, 0, 0);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.middle p {
+    color: rgb(82, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+}

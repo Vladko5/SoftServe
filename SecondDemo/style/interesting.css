@@ -1,0 +1,39 @@
+.map {
+    padding: 150px;
+}
+
+.map img {
+    width: 100%;
+    border: 10px solid transparent;
+    border-image: url('../images/border-img3.png') 30 repeat;
+}
+
+.info-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.info-content img {
+    height: 40%;
+    width: 40%;
+    padding: 10px;
+}
+
+.info-content h1 {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    font-size: 25px;
+}
+
+.info-content p {
+    padding: 10px;
+    font-size: 20px;
+}
