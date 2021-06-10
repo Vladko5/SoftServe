@@ -1,7 +1,7 @@
 export function getUserData() {
     const user = sessionStorage.getItem('user');
     if (user) {
-        return user;
+        return JSON.parse(user);
     } else {
         return undefined;
     }
