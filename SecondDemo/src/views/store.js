@@ -31,7 +31,7 @@ const maleClothesTemplate = () => html`
 
 const femaleClothesTemplate = () => html`
     ${shopItemTemplate('Pirin Costume', './images/female-pirin-costume-480lev.jpg', 480)}
-    ${shopItemTemplate('Shopski Costume', './images/female-shopska-costume-260lev.jpg', 260)}
+    ${shopItemTemplate('Shopska Costume', './images/female-shopska-costume-260lev.jpg', 260)}
     ${shopItemTemplate('Tracian Costume', './images/female-tracian-costume-390lev.jpg', 390)}
 `;
 
@@ -195,15 +195,15 @@ export async function storePage(ctx) {
 
     let cartItems = document.getElementsByClassName('cart-items')[0];
     function addItemToCart(title, price, imageSrc) {
-        let cartRow = document.createElement('div');
-        cartRow.classList.add('cart-row');
         const cartItemNames = cartItems.getElementsByClassName('cart-item-title');
         for (let i = 0; i < cartItemNames.length; i++) {
             if (cartItemNames[i].textContent == title) {
-                alert('This item is already added to the cart');
                 return;
             };
         };
+        
+        let cartRow = document.createElement('div');
+        cartRow.classList.add('cart-row');
         const cartRowContents = `
                 <div class="cart-item cart-column">
                     <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
