@@ -113,51 +113,51 @@ export async function storePage(ctx) {
     ctx.render(storeTemplate());
 
     // Functions for the dropdown menu on the sidebar 
-    $('.rose-btn').click(async function () {
+    $('.rose-btn').click(function () {
         $('.rose-show').toggleClass("show");
         $('.first').toggleClass("rotate");
     });
-    $('.clothes-btn').click(async function () {
+    $('.clothes-btn').click(function () {
         $('.clothes-show').toggleClass("show1");
         $('.second').toggleClass("rotate");
     });
 
     // Functions for filtering(rendering) the products;
     const productsSection = document.getElementsByClassName('products')[0];
-    $('#cosmetics').click(async function () {
+    $('#cosmetics').click(function () {
         render(cosmeticsTemplate(), productsSection);
     });
 
-    $('#foods').click(async function () {
+    $('#foods').click(function () {
         render(foodsTemplate(), productsSection);
     });
 
-    $('#male').click(async function () {
+    $('#male').click(function () {
         render(maleClothesTemplate(), productsSection);
     });
 
-    $('#female').click(async function () {
+    $('#female').click(function () {
         render(femaleClothesTemplate(), productsSection);
     });
 
-    $('#souvenirs').click(async function () {
+    $('#souvenirs').click(function () {
         render(souvenirsTemplate(), productsSection);
     });
 
     // Cart functions;
-    $('.btn-danger').click(async function (e) {
+    $('.btn-danger').click(function (e) {
         removeCartItem(e);
     });
 
-    $('.cart-quantity-input').change(async function (e) {
+    $('.cart-quantity-input').change(function (e) {
         quantityChanged(e);
     });
 
-    $('.shop-item-button').click(async function (e) {
+    $('.shop-item-button').click(function (e) {
         addToCartClicked(e);
     });
 
-    $('#btn-purchase').click(async function () {
+    $('#btn-purchase').click(function () {
         purchaseClicked();
     });
 
