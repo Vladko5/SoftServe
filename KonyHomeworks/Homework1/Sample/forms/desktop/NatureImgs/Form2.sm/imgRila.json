@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "410dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "304dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s059dd1b15274e688653bc73491731d7",
+    "_src_": "rila_lakes.jpeg",
+    "_top_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "580dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "Form2",
+        "platform": "desktopweb",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgRila",
+    "ide_onTouchEnd": "AS_Image_h8cf010af11b48608c07f53c4e595df9",
+    "ide_onTouchStart": "AS_Image_j5e448f5076f4a9fad63a67ad56a0b59",
+    "imagescalemode": 2,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hd065894f3564de7bd3cdfee15a64d62",
+    "name": "kony.ui.Image2",
+    "parent": "Form2",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

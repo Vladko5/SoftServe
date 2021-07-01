@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "444dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6f4d39ceadf441c8433a43158f60ed1",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "99dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sf74f671d8eb41b79b4d36636bb6ec7e",
+    "id": "btnRila",
+    "ide_onClick": "AS_Button_f8a64788f5d74447be463cf7643e9af0",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "afbdd5e2ef824f5cb994badefb718edc",
+    "name": "kony.ui.Button",
+    "parent": "Form2",
+    "pf": "Form2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

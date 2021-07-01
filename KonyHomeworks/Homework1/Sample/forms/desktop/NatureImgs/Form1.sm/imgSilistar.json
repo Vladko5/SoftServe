@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "410dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "323dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s059dd1b15274e688653bc73491731d7",
+    "_src_": "silistar.jpg",
+    "_top_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "560dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "desktop",
+        "formID": "Form1",
+        "platform": "desktopweb",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgSilistar",
+    "imagescalemode": 2,
+    "imagewhenfailed": "silistar.jpg",
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h23e421c27b0469c9cc29b099333f46f",
+    "name": "kony.ui.Image2",
+    "parent": "Form1",
+    "pf": "Form1",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}
