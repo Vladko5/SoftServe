@@ -1,0 +1,31 @@
+{
+    "AS_Button_a319019a9bd44710bde3363300f36f4a": {
+        "id": "AS_Button_a319019a9bd44710bde3363300f36f4a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e489d36cba2b4bb4a82a1c987dd8b4f4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ee34597546a1476abd2387470414a4ef",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Form2",
+            "formKUID": "ef67f8fcebfd4147a1233278be83b398",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "NatureImgs",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnSilistar\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}
